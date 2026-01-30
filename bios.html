@@ -12,25 +12,21 @@
 <body>
     <div id="container" class="container">
         <a id="abouttab" style="background-color: rgb(193, 193, 193); color: rgb(0, 26, 255); position: absolute; top: 1%; left: 1%; font-size: 24px; padding: 10px;">About</a>
-        <a id="thezinyxatab" style="background-color: rgb(0, 26, 255); color: rgb(193, 193, 193); position: absolute; top: 1%; left: 14%; font-size: 24px; padding: 10px;">TheZinyxa</a>
+        <a id="z1n1ontab" style="background-color: rgb(0, 26, 255); color: rgb(193, 193, 193); position: absolute; top: 1%; left: 14%; font-size: 24px; padding: 10px;">z1n1on</a>
         <a id="mythiktab" style="background-color: rgb(0, 26, 255); color: rgb(193, 193, 193); position: absolute; top: 1%; left: 35.5%; font-size: 24px; padding: 10px;">Mythik</a>
-        <a id="dencodtab" style="background-color: rgb(0, 26, 255); color: rgb(193, 193, 193); position: absolute; top: 1%; right: 25%; font-size: 24px; padding: 10px;">NotADenCod__</a>
+        <a id="netytab" style="background-color: rgb(0, 26, 255); color: rgb(193, 193, 193); position: absolute; top: 1%; right: 25%; font-size: 24px; padding: 10px;">Нету</a>
         <a id="cooptab" style="background-color: rgb(0, 26, 255); color: rgb(193, 193, 193); position: absolute; top: 1%; right: 9%; font-size: 24px; padding: 10px;">NedoTeam</a>
         <div id="containerabout" class="container2">
             <textarea id="textabout" disabled></textarea>
         </div>
-        <div id="thezinyxacontainer" hidden class="container2">
-            <p id="thezinyxa1" style="margin-left: 30px; color: rgb(193, 193, 193); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">MineCryft</p>
-            <p id="thezinyxa2" style="margin-left: 30px; color: rgb(0, 26, 255); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">Windows 12</p>
-            <p id="thezinyxa3" style="margin-left: 30px; color: rgb(0, 26, 255); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">NEDOHACKERS Clicker</p>
-            <p id="thezinyxa4" style="margin-left: 30px; color: rgb(0, 26, 255); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">BBLaucher</p>
-            <p id="thezinyxa5" style="margin-left: 30px; color: rgb(0, 26, 255); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">Steam</p>
+        <div id="z1n1oncontainer" hidden class="container2">
+            <p id="z1n1on1" style="margin-left: 30px; color: rgb(193, 193, 193); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">Hytale</p>
         </div>
         <div id="mythikcontainer" hidden class="container2">
         <p id="mythik1" style="margin-left: 30px; color: rgb(193, 193, 193); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">А тут ничего не было, поэтому!</p>
         </div>
-        <div id="dencodcontainer" hidden class="container2">
-            <p id="dencod1" style="margin-left: 30px; color: rgb(193, 193, 193); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">А тут ничего не было, поэтому!</p>
+        <div id="netycontainer" hidden class="container2">
+            <p id="nety1" style="margin-left: 30px; color: rgb(193, 193, 193); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">А тут ничего не было, поэтому!</p>
         </div>
         <div id="coopcontainer" hidden class="container2">
             <p id="coop1" style="margin-left: 30px; color: rgb(193, 193, 193); background-color: rgb(0, 26, 255); padding: 5px; width: fit-content;">А тут ничего не было, поэтому!</p>
@@ -39,8 +35,8 @@
     <script>
         var cooptabobjects = 1
         var mythikobjects = 1
-        var thezinyxaobjects = 5
-        var dencodtabobjects = 1
+        var z1n1onobjects = 1
+        var netyobjects = 1
         var selectedtab = 1
         var currentobject = 1
 
@@ -61,7 +57,7 @@
         else if (name === "ArrowDown") {
             if(selectedtab !== 1){
                 if(selectedtab===2){
-                    if(currentobject!==thezinyxaobjects){
+                    if(currentobject!==z1n1onobjects){
                         currentobject++
                     }
                 } else if(selectedtab===3){
@@ -69,7 +65,7 @@
                         currentobject++
                     }
                 } else if(selectedtab===4){
-                    if(currentobject!==dencodtabobjects){
+                    if(currentobject!==netyobjects){
                         currentobject++
                     }
                 } else if(selectedtab===5){
@@ -86,15 +82,7 @@
         } else if (name === "Enter"){
             if(selectedtab==2){
                 if(currentobject==1){
-                    location.href = "https://mega.nz/folder/Q4xXlagY#AeGamZM8Jb5YFcIAo8JB3Q"
-                } else if(currentobject==2){
-                    location.href = "https://mega.nz/file/Y9wiSSba#S3J0mbX2VqetqvLqkiD7eRhY1BlNbEd9twbBGfC4M-E"
-                } else if(currentobject==3){
-                    location.href = "https://wh20731.web1.maze-tech.ru"
-                } else if(currentobject==4){
-                    location.href = "https://mega.nz/file/YsxDAJKB#hWiLBIqR_5Ju8CeXyGQXi1d6BcCCMTGyLcapd0g6hh4"
-                } else if(currentobject==5){
-                    location.href = "https://mega.nz/folder/x0JwSaII#nB8zHo_QwBu_Y_CTQNwLxg"
+                    location.href = "https://mega.nz/file/Ewpj3JaI#qpLtLkS4hT__MhF1WJUGLwLyTc2-usB7sxyllwi8kos"
                 }
             }
         }
@@ -105,26 +93,26 @@
 
             if(selectedtab!==1){
                 if(selectedtab===2){
-                    for (let i = 1; i < thezinyxaobjects+1; i++) {
-                        document.getElementById(`thezinyxa${i}`).style.backgroundColor = "rgb(193, 193, 193)"
-                        document.getElementById(`thezinyxa${i}`).style.color = "rgb(0, 26, 255)"
+                    for (let i = 1; i < z1n1onobjects+1; i++) {
+                        document.getElementById(`z1n1on${i}`).style.backgroundColor = "rgb(193, 193, 193)"
+                        document.getElementById(`z1n1on${i}`).style.color = "rgb(0, 26, 255)"
                     }
-                    document.getElementById(`thezinyxa${currentobject}`).style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById(`thezinyxa${currentobject}`).style.color = "rgb(193, 193, 193)"
+                    document.getElementById(`z1n1on${currentobject}`).style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById(`z1n1on${currentobject}`).style.color = "rgb(193, 193, 193)"
                     document.getElementById("abouttab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("abouttab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("mythiktab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("mythiktab").style.color = "rgb(193, 193, 193)"
-                    document.getElementById("dencodtab").style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById("dencodtab").style.color = "rgb(193, 193, 193)"
+                    document.getElementById("netytab").style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById("netytab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("cooptab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("cooptab").style.color = "rgb(193, 193, 193)"
-                    document.getElementById("thezinyxatab").style.backgroundColor = "rgb(193, 193, 193)"
-                    document.getElementById("thezinyxatab").style.color = "rgb(0, 26, 255)"
+                    document.getElementById("z1n1ontab").style.backgroundColor = "rgb(193, 193, 193)"
+                    document.getElementById("z1n1ontab").style.color = "rgb(0, 26, 255)"
                     document.getElementById("containerabout").hidden = true
-                    document.getElementById("thezinyxacontainer").hidden = false
+                    document.getElementById("z1n1oncontainer").hidden = false
                     document.getElementById("mythikcontainer").hidden = true
-                    document.getElementById("dencodcontainer").hidden = true
+                    document.getElementById("netycontainer").hidden = true
                     document.getElementById("coopcontainer").hidden = true
                 } else if(selectedtab===3){
                     for (let i = 1; i < mythikobjects+1; i++) {
@@ -137,39 +125,39 @@
                     document.getElementById("abouttab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("mythiktab").style.backgroundColor = "rgb(193, 193, 193)"
                     document.getElementById("mythiktab").style.color = "rgb(0, 26, 255)"
-                    document.getElementById("dencodtab").style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById("dencodtab").style.color = "rgb(193, 193, 193)"
+                    document.getElementById("netytab").style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById("netytab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("cooptab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("cooptab").style.color = "rgb(193, 193, 193)"
-                    document.getElementById("thezinyxatab").style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById("thezinyxatab").style.color = "rgb(193, 193, 193)"
+                    document.getElementById("z1n1ontab").style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById("z1n1ontab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("containerabout").hidden = true
-                    document.getElementById("thezinyxacontainer").hidden = true
+                    document.getElementById("z1n1oncontainer").hidden = true
                     document.getElementById("mythikcontainer").hidden = false
-                    document.getElementById("dencodcontainer").hidden = true
+                    document.getElementById("netycontainer").hidden = true
                     document.getElementById("coopcontainer").hidden = true
                 }
                 else if(selectedtab===4){
-                    for (let i = 1; i < dencodtabobjects+1; i++) {
-                        document.getElementById(`dencod${i}`).style.backgroundColor = "rgb(193, 193, 193)"
-                        document.getElementById(`dencod${i}`).style.color = "rgb(0, 26, 255)"
+                    for (let i = 1; i < netyobjects+1; i++) {
+                        document.getElementById(`nety${i}`).style.backgroundColor = "rgb(193, 193, 193)"
+                        document.getElementById(`nety${i}`).style.color = "rgb(0, 26, 255)"
                     }
-                    document.getElementById(`dencod${currentobject}`).style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById(`dencod${currentobject}`).style.color = "rgb(193, 193, 193)"
+                    document.getElementById(`nety${currentobject}`).style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById(`nety${currentobject}`).style.color = "rgb(193, 193, 193)"
                     document.getElementById("abouttab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("abouttab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("mythiktab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("mythiktab").style.color = "rgb(193, 193, 193)"
-                    document.getElementById("dencodtab").style.backgroundColor = "rgb(193, 193, 193)"
-                    document.getElementById("dencodtab").style.color = "rgb(0, 26, 255)"
+                    document.getElementById("netytab").style.backgroundColor = "rgb(193, 193, 193)"
+                    document.getElementById("netytab").style.color = "rgb(0, 26, 255)"
                     document.getElementById("cooptab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("cooptab").style.color = "rgb(193, 193, 193)"
-                    document.getElementById("thezinyxatab").style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById("thezinyxatab").style.color = "rgb(193, 193, 193)"
+                    document.getElementById("z1n1ontab").style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById("z1n1ontab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("containerabout").hidden = true
-                    document.getElementById("thezinyxacontainer").hidden = true
+                    document.getElementById("z1n1oncontainer").hidden = true
                     document.getElementById("mythikcontainer").hidden = true
-                    document.getElementById("dencodcontainer").hidden = false
+                    document.getElementById("netycontainer").hidden = false
                     document.getElementById("coopcontainer").hidden = true
                 }
                 else if(selectedtab===5){
@@ -183,14 +171,14 @@
                     document.getElementById("abouttab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("mythiktab").style.backgroundColor = "rgb(0, 26, 255)"
                     document.getElementById("mythiktab").style.color = "rgb(193, 193, 193)"
-                    document.getElementById("dencodtab").style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById("dencodtab").style.color = "rgb(193, 193, 193)"
+                    document.getElementById("netytab").style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById("netytab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("cooptab").style.backgroundColor = "rgb(193, 193, 193)"
                     document.getElementById("cooptab").style.color = "rgb(0, 26, 255)"
-                    document.getElementById("thezinyxatab").style.backgroundColor = "rgb(0, 26, 255)"
-                    document.getElementById("thezinyxatab").style.color = "rgb(193, 193, 193)"
+                    document.getElementById("z1n1ontab").style.backgroundColor = "rgb(0, 26, 255)"
+                    document.getElementById("z1n1ontab").style.color = "rgb(193, 193, 193)"
                     document.getElementById("containerabout").hidden = true
-                    document.getElementById("thezinyxacontainer").hidden = true
+                    document.getElementById("z1n1oncontainer").hidden = true
                     document.getElementById("mythikcontainer").hidden = true
                     document.getElementById("mythikcontainer").hidden = true
                     document.getElementById("coopcontainer").hidden = false
@@ -200,28 +188,27 @@
                 document.getElementById("abouttab").style.color = "rgb(0, 26, 255)"
                 document.getElementById("mythiktab").style.backgroundColor = "rgb(0, 26, 255)"
                 document.getElementById("mythiktab").style.color = "rgb(193, 193, 193)"
-                document.getElementById("dencodtab").style.backgroundColor = "rgb(0, 26, 255)"
-                document.getElementById("dencodtab").style.color = "rgb(193, 193, 193)"
+                document.getElementById("netytab").style.backgroundColor = "rgb(0, 26, 255)"
+                document.getElementById("netytab").style.color = "rgb(193, 193, 193)"
                 document.getElementById("cooptab").style.backgroundColor = "rgb(0, 26, 255)"
                 document.getElementById("cooptab").style.color = "rgb(193, 193, 193)"
-                document.getElementById("thezinyxatab").style.backgroundColor = "rgb(0, 26, 255)"
-                document.getElementById("thezinyxatab").style.color = "rgb(193, 193, 193)"
+                document.getElementById("z1n1ontab").style.backgroundColor = "rgb(0, 26, 255)"
+                document.getElementById("z1n1ontab").style.color = "rgb(193, 193, 193)"
                 document.getElementById("containerabout").hidden = false
-                document.getElementById("thezinyxacontainer").hidden = true
+                document.getElementById("z1n1oncontainer").hidden = true
                 document.getElementById("mythikcontainer").hidden = true
-                document.getElementById("dencodcontainer").hidden = true
+                document.getElementById("netycontainer").hidden = true
                 document.getElementById("coopcontainer").hidden = true
             }
         },50)
         document.getElementById("textabout").value = `
-  Site developer: TheZinyxa
-  Apps developers: TheZinyxa, Mythik, NotADenCodik__
+  Site developer: z1n1on
+  Apps developers: z1n1on, Mythik
   
   
 
-  Donate to TheZinyxa: https://boosty.to/virusnetotal/donate
+  Donate to z1n1on: https://t.me/Shfhiw
   Donate to Mythik: https://www.donationalerts.com/r/mythik
-  Donate to NotADenCod__: Нету
   
   
   
@@ -237,7 +224,7 @@
   Этот сайт содержит вредоносные загрузки!
   
   
-  Latest project: Steam [TheZinyxa]`
+  Latest project: Hytale [z1n1on]`
     </script>
 </body>
 </html>
